@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "manimce"
+version = "0.1.2"
+description = "Animation engine for explanatory math videos. [Deprecated]"
+authors = ["The Manim Community Developers"]
+license="MIT"
+readme="README.md"
+repository="https://pypi.org/project/manim/"
+packages = [
+    { include = "manimce" },
+]
+[tool.poetry.dependencies]
+python = "^3.6"
+manim = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
