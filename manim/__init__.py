@@ -86,3 +86,11 @@ from .utils.space_ops import *
 from .utils.strings import *
 from .utils.tex import *
 from .utils.tex_templates import *
+
+import warnings
+
+warnings.warn(
+    "You have installed Manim from `manimce` PyPI package which is deprecated and no longer updated. " 
+    "Please uninstall `manimce` and install Manim from `manim` PyPI package.",
+    DeprecationWarning
+)

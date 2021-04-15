@@ -1,3 +1,6 @@
+# **Deprecated**: Please use [manim](https://pypi.org/project/manim/) PyPi project as this will not have any updates in Future.
+
+
 <p align="center">
     <a href="https://www.manim.community/"><img src="https://raw.githubusercontent.com/ManimCommunity/manim/master/logo/cropped.png"></a>
     <br />
