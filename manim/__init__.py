@@ -92,5 +92,5 @@ import warnings
 warnings.warn(
     "You have installed Manim from `manimce` PyPI package which is deprecated and no longer updated. " 
     "Please uninstall `manimce` and install Manim from `manim` PyPI package.",
-    DeprecationWarning
+    UserWarning
 )
