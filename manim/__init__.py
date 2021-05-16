@@ -1,5 +1,11 @@
 #!/usr/bin/env python
 
+raise Exception(
+    "You have installed Manim from `manimce` PyPI package which is deprecated and no longer updated. " 
+    "Please uninstall `manimce` and install Manim from `manim` PyPI package.",
+)
+
+
 # Importing the config module should be the first thing we do, since other
 # modules depend on the global config dict for initialization.
 from ._config import *
@@ -86,11 +92,3 @@ from .utils.space_ops import *
 from .utils.strings import *
 from .utils.tex import *
 from .utils.tex_templates import *
-
-import warnings
-
-warnings.warn(
-    "You have installed Manim from `manimce` PyPI package which is deprecated and no longer updated. " 
-    "Please uninstall `manimce` and install Manim from `manim` PyPI package.",
-    UserWarning
-)
